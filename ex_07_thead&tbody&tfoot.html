@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>html5</title>
+	</head>
+	
+	
+	<body>
+	
+		<p>목차</p>
+		<ol>
+			<li><a href="./ex_01_h&hr.html">h1~h6</a></li>
+			
+			<li><a href="./ex_02_p&br&q&strong.html">p br blockquote q strong em</a></li>
+			
+			<li><a href="./ex_03_ol&ul.html">ol li, ul li</a></li>
+			
+			<li><a href="./ex_04_img&a.html">img a</a></li>
+			
+			<li><a href="./ex_05_tabletag.html">tabletag</a></li>
+			
+			<li><a href="./ex_06_colspan&rowspan.html">colspan&rowspan</a></li>
+			
+			<li><a href="./ex_07_thead&tbody&tfoot.html">thead&tbody&tfoot</a></li>
+			
+			<li><a href="./ex_08_tablepractice.html">tablepractice</a></li>
+			
+			<li><a href="./ex_09_formtag.html">formtag</a></li>
+			
+		</ol>
+		<hr>
+		
+		<h1>html5</h1>
+		
+		<h2>기본태그</h2>
+		
+		<h3>thead&tbody&tfoot</h3>
+		<!-- t(table) + head / body / foot -->		
+		<!--  head : 변하지 않는 항목 / body : 변하는 항목 -->
+		<p>개념 잡기</p>
+		<table border = "1">
+				<thead>
+					<tr>
+						<th>번호</th>		<!--  thead에서는 변하는 data가 아니므로 th태그를 사용한다 -->
+						<th>제목</th>
+						<th>작성자</th>
+						<th>조회수</th>
+						<th>작성일</th>
+						<th>관리</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>첫번째 게시물입니다.</td>
+						<td>김재환</td>
+						<td>100</td>
+						<td>2022-03-01</td>
+						<td>[삭제]</td>
+					</tr>
+					
+					<tr>
+						<td>2</td>
+						<td>외롭습니다.</td>
+						<td>백동현</td>
+						<td>0</td>
+						<td>2022-03-01</td>
+						<td>[삭제]</td>
+					</tr>
+					
+					<tr>
+						<td>3</td>
+						<td>커미조아 떠납니다.</td>
+						<td>사우진</td>
+						<td>1000</td>
+						<td>2022-03-01</td>
+						<td>[삭제]</td>
+					</tr>
+					
+					<tr>
+						<td>4</td>
+						<td>아린이 많이 사랑해주세요.</td>
+						<td>박준영</td>
+						<td>800</td>
+						<td>2022-03-01</td>
+						<td>[삭제]</td>
+					</tr>
+					
+				</tbody>
+			
+		</table>
+		<br>
+		
+		<table border="1">
+			<!--  colgroup : css 영역이고 나중에 더 자세히 할 예정인데 테이블에서 국룰처럼 설정되는 항목이므로 찍먹만 해보자 -->
+			<colgroup>
+				<col style = "width: 120px;">
+				<col style = "width: 80px;">
+				<col style = "width: 80px;">
+				<col style = "width: 80px;">
+				<col style = "width: 80px;">
+			<!-- 어디까지나 꾸미기의 영역임, html과 style은 최대한 섞이지 않게 html의 기본에 충실한 방향으로 가야함  -->
+			<caption>제주특별자치도 학교현황</caption> <!-- caption : 제목 -->
+			
+			<thead>
+				<tr>
+					<th>구분</th>
+					<th>학교수</th>
+					<th>학급수</th>
+					<th>학생수</th>
+					<th>교원수</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<th>유치원</th>
+					<td>117</td>
+					<td>252</td>
+					<td>5547</td>
+					<td>474</td>
+				</tr>
+				
+				<tr>
+					<th>초등학교</th>
+					<td>111</td>
+					<td>1720</td>
+					<td>37686</td>
+					<td>2632</td>
+				</tr>
+				
+				<tr>
+					<th>중학교</th>
+					<td>44</td>
+					<td>699</td>
+					<td>21274</td>
+					<td>1412</td>
+				</tr>
+				</tbody>
+				
+				<tfoot>
+					<tr>
+						<th>합계</th>
+						<td>272</td>
+						<td>2671</td>
+						<td>64507</td>
+						<td>4518</td>
+					</tr>
+				</tfoot>
+		
+		</table>
+		<br>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>DIY_order pizza</title>
+	</head>
+	
+	<body>
+		
+		<form>
+		
+			<fieldset>
+				<legend>고객정보</legend>
+		
+				<label for = "customer_name" >고객명 : </label>
+				<input id = "customer_name" type = "text" name = "name" value = "">
+				
+				<br><br>
+				
+				<label for = "customer_phone" >전화번호 : </label>
+				<input id = "customer_phone" type = "text" name = "phone" value = "">
+				
+				<br><br>
+			
+				<label for = "customer_email" >E-mail : </label>
+				<input id = "customer_phone" type = "text" name = "email" value = "">
+			
+			</fieldset>
+			
+			<br>
+			
+			<fieldset>
+				<legend>주문 사이즈</legend>
+			
+					<label for = "rdo-small">small</label>
+					<input id = "rdo-small" type = "radio" name = "size" value = "small">
+					<br>
+					
+					<label for = "rdo-medium">medium</label>
+					<input id = "rdo-medium" type = "radio" name = "size" value = "medium">
+					<br>
+					
+					<label for = "rdo-large">large</label>
+					<input id = "rdo-large" type = "radio" name = "size" value = "large">
+			
+			</fieldset>
+			
+			<br>
+			
+			<fieldset>
+				<legend>토핑 선택</legend>
+			
+					<label for = "chk-bacon">베이컨</label>
+					<input id = "chk-bacon" type = "checkbox" name = "toping" value = "bacon">
+					<br>
+					
+					<label for = "chk-cheeze">치즈</label>
+					<input id = "chk-cheeze" type = "checkbox" name = "toping" value = "cheeze">
+					<br>
+					
+					<label for = "chk-onion">양파</label>
+					<input id = "chk-onion" type = "checkbox" name = "toping" value = "onion">
+					<br>
+					
+					<label for = "chk-mushroom">버섯</label>
+					<input id = "chk-mushroom" type = "checkbox" name = "toping" value = "mushroom">
+			
+			</fieldset>
+			<br>
+			
+			<label for = "hope_delivery">희망배송시간 : </label>
+			<textarea name = "hope_delivery">--  -- : -- </textarea>
+			<br>
+			
+			<label for = "requirement">배송시 요청사항</label>
+			<textarea name = "requirement"></textarea>
+			
+			<br><br>
+			<button type = "submit">주문하기</button>
+			<button type = "reset">다시 선택하기</button>
+			
+		</form>
+		
+		
+	</body>
+	
+	
+</html>

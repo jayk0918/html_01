@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>html5</title>
+	</head>
+	
+	
+	<body>
+		
+	<p>목차</p>
+		<ol>
+			<li><a href="./ex_01_h&hr.html">h1~h6</a></li>
+			
+			<li><a href="./ex_02_p&br&q&strong.html">p br blockquote q strong em</a></li>
+			
+			<li><a href="./ex_03_ol&ul.html">ol li, ul li</a></li>
+			
+			<li><a href="./ex_04_img&a.html">img a</a></li>
+			
+			<li><a href="./ex_05_tabletag.html">tabletag</a></li>
+			
+			<li><a href="./ex_06_colspan&rowspan.html">colspan&rowspan</a></li>
+			
+			<li><a href="./ex_07_thead&tbody&tfoot.html">thead&tbody&tfoot</a></li>
+			
+			<li><a href="./ex_08_tablepractice.html">tablepractice</a></li>
+			
+			<li><a href="./ex_09_formtag.html">formtag</a></li>
+			
+		</ol>
+		
+		
+		<hr>
+	
+	
+		<h1>html5</h1>
+		
+		<h2>기본태그</h2>
+		
+		<h3>img</h3>
+	
+		<!-- img : 이미지 불러와 + src(소스) : 경로설정 + alt : alternative (이미지 없을때 대체) -->
+		
+		<!-- 절대경로 루트 -- 윈도우 : c:/ ~ 맥은 /Users -->
+		<!-- 맥 주소 -->
+		<img src="/Users/jaykim0918/Dropbox/javaStudy/workspace_front/html_01/img/jung.jpg" alt="프로필이미지">	
+		<img src="/Users/jaykim0918/Dropbox/javaStudy/workspace_front/html_01/img/sub/yoo.jpg" alt="프로필이미지">
+		<br><br>
+		
+		<!-- 윈도우 주소 -->
+		<img src="C:\Users\jespe\Dropbox\javaStudy\workspace_front\html_01\img\jung.jpg" alt="프로필이미지">	
+		<img src="C:\Users\jespe\Dropbox\javaStudy\workspace_front\html_01\img\sub\yoo.jpg" alt="프로필이미지">
+		<br><br>
+		
+		
+		<!-- 상대경로 (상대적인 기준으로 가변적임, '나'를 중심으로)
+			 여기서 '나'는 ex04_img.html이라는 열려있는 파일이 기준이 됨 -->
+			 
+		<img src="./img/jung.jpg" alt="프로필이미지">
+		<img src="./img/sub/yoo.jpg" alt="프로필이미지">
+		<br><br>
+		
+		<!-- 상위경로로 이동할 경우 ../../ 이런식으로  반복입력 
+		<img src="../../KakaoTalk_Photo_2022-02-19-17-07-57.jpeg" alt="프로필이미지">-->
+		
+		<img src="./img/KakaoTalk_Photo_2022-02-19-17-07-57.jpeg" alt="프로필이미지">
+		<br><br>
+		
+		<!-- 하이퍼링크 -->
+		
+		
+		<a href="https://www.naver.com" target="_self">네이버</a>
+		<a href="https://www.naver.com" target="_blank">네이버 새창</a>
+		<!-- target="_blank"는 새 탭에 하이퍼링크를 활성화 -->
+		<!-- target="_self"는 본인의 창에서 해당 하이퍼링크 실행 (정석 + 생략가능) -->
+		
+		<br><br>
+		
+		<a href="./ex01_h&hr.html">1페이지</a>
+		
+		<br><br>
+		
+		<!-- 응용하기 -->
+		
+		<a href="https://www.aladin.co.kr" target="_blank">
+			<img src="./img/KakaoTalk_20220331_171940573.gif">
+		</a>
+	
+		
+	
+	
+	
+	
+	
+	</body>
+	
+</html>
